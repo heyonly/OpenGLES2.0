@@ -2,16 +2,13 @@
 //  ViewController.m
 //  Tutorial03
 //
-//  Created by heyonly on 2019/6/3.
+//  Created by heyonly on 2019/7/9.
 //  Copyright © 2019 heyonly. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "OpenGLView.h"
-@interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet OpenGLView *openGLView;
-@property (weak, nonatomic) IBOutlet UIView *backView;
+@interface ViewController ()
 
 @end
 

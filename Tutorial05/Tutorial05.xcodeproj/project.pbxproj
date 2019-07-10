@@ -7,115 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20015BDA22AE7DDD009E1B1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015BD922AE7DDD009E1B1C /* AppDelegate.m */; };
-		20015BDD22AE7DDD009E1B1C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015BDC22AE7DDD009E1B1C /* ViewController.m */; };
-		20015BE022AE7DDD009E1B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20015BDE22AE7DDD009E1B1C /* Main.storyboard */; };
-		20015BE222AE7DDE009E1B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20015BE122AE7DDE009E1B1C /* Assets.xcassets */; };
-		20015BE522AE7DDE009E1B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20015BE322AE7DDE009E1B1C /* LaunchScreen.storyboard */; };
-		20015BE822AE7DDE009E1B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015BE722AE7DDE009E1B1C /* main.m */; };
-		20015BF222AE7DDE009E1B1C /* Tutorial05Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015BF122AE7DDE009E1B1C /* Tutorial05Tests.m */; };
-		20015BFD22AE7DDE009E1B1C /* Tutorial05UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015BFC22AE7DDE009E1B1C /* Tutorial05UITests.m */; };
-		20015C0C22AE7E10009E1B1C /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015C0B22AE7E10009E1B1C /* OpenGLView.m */; };
-		20015C1122AE7E93009E1B1C /* ksVector.c in Sources */ = {isa = PBXBuildFile; fileRef = 20015C0E22AE7E93009E1B1C /* ksVector.c */; };
-		20015C1222AE7E93009E1B1C /* ksMatrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 20015C1022AE7E93009E1B1C /* ksMatrix.c */; };
-		20015C1422AE7EB5009E1B1C /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 20015C1322AE7EB5009E1B1C /* VertexShader.glsl */; };
-		20015C1622AE7EC6009E1B1C /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 20015C1522AE7EC6009E1B1C /* FragmentShader.glsl */; };
-		20015C1822AE867E009E1B1C /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 20015C1722AE867E009E1B1C /* timg.jpeg */; };
-		20015C1B22AF45D6009E1B1C /* OpenGLMultiTextureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015C1A22AF45D6009E1B1C /* OpenGLMultiTextureView.m */; };
-		20015C1D22AF56A2009E1B1C /* VertexShaderMultiTexture.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 20015C1C22AF56A2009E1B1C /* VertexShaderMultiTexture.glsl */; };
-		20015C1F22AF56B7009E1B1C /* FragmentShaderMultiTexture.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 20015C1E22AF56B7009E1B1C /* FragmentShaderMultiTexture.glsl */; };
-		20015C2122AF5E76009E1B1C /* text.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 20015C2022AF5E76009E1B1C /* text.jpg */; };
-		20015C2422AF91C7009E1B1C /* OpenGLCubeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20015C2322AF91C7009E1B1C /* OpenGLCubeView.m */; };
-		20015C2622AF9F54009E1B1C /* VertexShaderCube.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 20015C2522AF9F53009E1B1C /* VertexShaderCube.glsl */; };
-		20015C2822AF9F64009E1B1C /* FragmentShaderCube.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 20015C2722AF9F64009E1B1C /* FragmentShaderCube.glsl */; };
-		2027665622B22F1400351F42 /* OpenGLFIlterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2027665522B22F1400351F42 /* OpenGLFIlterView.m */; };
-		2027665822B231E600351F42 /* VertexShaderFilter.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2027665722B231E600351F42 /* VertexShaderFilter.glsl */; };
-		2027665C22B2320D00351F42 /* FragmentShaderFilter.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 2027665B22B2320D00351F42 /* FragmentShaderFilter.glsl */; };
-		20D4186F22BA0F9000F8FE5B /* OpenGLMultiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D4186E22BA0F9000F8FE5B /* OpenGLMultiFilter.m */; };
-		20D4187322BA1CE600F8FE5B /* Saturation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 20D4187022BA1CE500F8FE5B /* Saturation.fsh */; };
-		20D4187422BA1CE600F8FE5B /* Temperature.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 20D4187122BA1CE500F8FE5B /* Temperature.fsh */; };
-		20D4187522BA1CE600F8FE5B /* OpenGLESDemo.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 20D4187222BA1CE600F8FE5B /* OpenGLESDemo.vsh */; };
+		205436BC22D6454900E683B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436BB22D6454900E683B4 /* AppDelegate.m */; };
+		205436BF22D6454900E683B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436BE22D6454900E683B4 /* ViewController.m */; };
+		205436C222D6454900E683B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205436C022D6454900E683B4 /* Main.storyboard */; };
+		205436C422D6454A00E683B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205436C322D6454A00E683B4 /* Assets.xcassets */; };
+		205436C722D6454A00E683B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205436C522D6454A00E683B4 /* LaunchScreen.storyboard */; };
+		205436CA22D6454A00E683B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436C922D6454A00E683B4 /* main.m */; };
+		205436D422D6454A00E683B4 /* Tutorial05Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436D322D6454A00E683B4 /* Tutorial05Tests.m */; };
+		205436DF22D6454A00E683B4 /* Tutorial05UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436DE22D6454A00E683B4 /* Tutorial05UITests.m */; };
+		205436EE22D6457400E683B4 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205436EC22D6457400E683B4 /* Earth512x256.jpg */; };
+		205436F122D645C500E683B4 /* OpenGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436F022D645C500E683B4 /* OpenGLKView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		20015BEE22AE7DDE009E1B1C /* PBXContainerItemProxy */ = {
+		205436D022D6454A00E683B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20015BCD22AE7DDD009E1B1C /* Project object */;
+			containerPortal = 205436AF22D6454900E683B4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20015BD422AE7DDD009E1B1C;
+			remoteGlobalIDString = 205436B622D6454900E683B4;
 			remoteInfo = Tutorial05;
 		};
-		20015BF922AE7DDE009E1B1C /* PBXContainerItemProxy */ = {
+		205436DB22D6454A00E683B4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 20015BCD22AE7DDD009E1B1C /* Project object */;
+			containerPortal = 205436AF22D6454900E683B4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 20015BD422AE7DDD009E1B1C;
+			remoteGlobalIDString = 205436B622D6454900E683B4;
 			remoteInfo = Tutorial05;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20015BD522AE7DDD009E1B1C /* Tutorial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		20015BD822AE7DDD009E1B1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		20015BD922AE7DDD009E1B1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		20015BDB22AE7DDD009E1B1C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		20015BDC22AE7DDD009E1B1C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		20015BDF22AE7DDD009E1B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		20015BE122AE7DDE009E1B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		20015BE422AE7DDE009E1B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		20015BE622AE7DDE009E1B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20015BE722AE7DDE009E1B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		20015BED22AE7DDE009E1B1C /* Tutorial05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20015BF122AE7DDE009E1B1C /* Tutorial05Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial05Tests.m; sourceTree = "<group>"; };
-		20015BF322AE7DDE009E1B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20015BF822AE7DDE009E1B1C /* Tutorial05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		20015BFC22AE7DDE009E1B1C /* Tutorial05UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial05UITests.m; sourceTree = "<group>"; };
-		20015BFE22AE7DDE009E1B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20015C0A22AE7E10009E1B1C /* OpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
-		20015C0B22AE7E10009E1B1C /* OpenGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLView.m; sourceTree = "<group>"; };
-		20015C0D22AE7E93009E1B1C /* ksMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksMatrix.h; sourceTree = "<group>"; };
-		20015C0E22AE7E93009E1B1C /* ksVector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksVector.c; sourceTree = "<group>"; };
-		20015C0F22AE7E93009E1B1C /* ksVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ksVector.h; sourceTree = "<group>"; };
-		20015C1022AE7E93009E1B1C /* ksMatrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ksMatrix.c; sourceTree = "<group>"; };
-		20015C1322AE7EB5009E1B1C /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
-		20015C1522AE7EC6009E1B1C /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
-		20015C1722AE867E009E1B1C /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
-		20015C1922AF45D6009E1B1C /* OpenGLMultiTextureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLMultiTextureView.h; sourceTree = "<group>"; };
-		20015C1A22AF45D6009E1B1C /* OpenGLMultiTextureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLMultiTextureView.m; sourceTree = "<group>"; };
-		20015C1C22AF56A2009E1B1C /* VertexShaderMultiTexture.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShaderMultiTexture.glsl; sourceTree = "<group>"; };
-		20015C1E22AF56B7009E1B1C /* FragmentShaderMultiTexture.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShaderMultiTexture.glsl; sourceTree = "<group>"; };
-		20015C2022AF5E76009E1B1C /* text.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = text.jpg; sourceTree = "<group>"; };
-		20015C2222AF91C7009E1B1C /* OpenGLCubeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLCubeView.h; sourceTree = "<group>"; };
-		20015C2322AF91C7009E1B1C /* OpenGLCubeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLCubeView.m; sourceTree = "<group>"; };
-		20015C2522AF9F53009E1B1C /* VertexShaderCube.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShaderCube.glsl; sourceTree = "<group>"; };
-		20015C2722AF9F64009E1B1C /* FragmentShaderCube.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShaderCube.glsl; sourceTree = "<group>"; };
-		2027665422B22F1400351F42 /* OpenGLFIlterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLFIlterView.h; sourceTree = "<group>"; };
-		2027665522B22F1400351F42 /* OpenGLFIlterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLFIlterView.m; sourceTree = "<group>"; };
-		2027665722B231E600351F42 /* VertexShaderFilter.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShaderFilter.glsl; sourceTree = "<group>"; };
-		2027665B22B2320D00351F42 /* FragmentShaderFilter.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FragmentShaderFilter.glsl; sourceTree = "<group>"; };
-		20D4186D22BA0F9000F8FE5B /* OpenGLMultiFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLMultiFilter.h; sourceTree = "<group>"; };
-		20D4186E22BA0F9000F8FE5B /* OpenGLMultiFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLMultiFilter.m; sourceTree = "<group>"; };
-		20D4187022BA1CE500F8FE5B /* Saturation.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Saturation.fsh; sourceTree = "<group>"; };
-		20D4187122BA1CE500F8FE5B /* Temperature.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Temperature.fsh; sourceTree = "<group>"; };
-		20D4187222BA1CE600F8FE5B /* OpenGLESDemo.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OpenGLESDemo.vsh; sourceTree = "<group>"; };
+		205436B722D6454900E683B4 /* Tutorial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436BA22D6454900E683B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		205436BB22D6454900E683B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		205436BD22D6454900E683B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		205436BE22D6454900E683B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		205436C122D6454900E683B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		205436C322D6454A00E683B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		205436C622D6454A00E683B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		205436C822D6454A00E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205436C922D6454A00E683B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		205436CF22D6454A00E683B4 /* Tutorial05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436D322D6454A00E683B4 /* Tutorial05Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial05Tests.m; sourceTree = "<group>"; };
+		205436D522D6454A00E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205436DA22D6454A00E683B4 /* Tutorial05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436DE22D6454A00E683B4 /* Tutorial05UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial05UITests.m; sourceTree = "<group>"; };
+		205436E022D6454A00E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		205436EC22D6457400E683B4 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
+		205436ED22D6457400E683B4 /* sphere.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sphere.h; sourceTree = "<group>"; };
+		205436EF22D645C500E683B4 /* OpenGLKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLKView.h; sourceTree = "<group>"; };
+		205436F022D645C500E683B4 /* OpenGLKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLKView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		20015BD222AE7DDD009E1B1C /* Frameworks */ = {
+		205436B422D6454900E683B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20015BEA22AE7DDE009E1B1C /* Frameworks */ = {
+		205436CC22D6454A00E683B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20015BF522AE7DDE009E1B1C /* Frameworks */ = {
+		205436D722D6454A00E683B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,83 +84,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		20015BCC22AE7DDD009E1B1C = {
+		205436AE22D6454900E683B4 = {
 			isa = PBXGroup;
 			children = (
-				20015BD722AE7DDD009E1B1C /* Tutorial05 */,
-				20015BF022AE7DDE009E1B1C /* Tutorial05Tests */,
-				20015BFB22AE7DDE009E1B1C /* Tutorial05UITests */,
-				20015BD622AE7DDD009E1B1C /* Products */,
+				205436B922D6454900E683B4 /* Tutorial05 */,
+				205436D222D6454A00E683B4 /* Tutorial05Tests */,
+				205436DD22D6454A00E683B4 /* Tutorial05UITests */,
+				205436B822D6454900E683B4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		20015BD622AE7DDD009E1B1C /* Products */ = {
+		205436B822D6454900E683B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				20015BD522AE7DDD009E1B1C /* Tutorial05.app */,
-				20015BED22AE7DDE009E1B1C /* Tutorial05Tests.xctest */,
-				20015BF822AE7DDE009E1B1C /* Tutorial05UITests.xctest */,
+				205436B722D6454900E683B4 /* Tutorial05.app */,
+				205436CF22D6454A00E683B4 /* Tutorial05Tests.xctest */,
+				205436DA22D6454A00E683B4 /* Tutorial05UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		20015BD722AE7DDD009E1B1C /* Tutorial05 */ = {
+		205436B922D6454900E683B4 /* Tutorial05 */ = {
 			isa = PBXGroup;
 			children = (
-				20015BD822AE7DDD009E1B1C /* AppDelegate.h */,
-				20015BD922AE7DDD009E1B1C /* AppDelegate.m */,
-				20015BDB22AE7DDD009E1B1C /* ViewController.h */,
-				20015BDC22AE7DDD009E1B1C /* ViewController.m */,
-				20015C0A22AE7E10009E1B1C /* OpenGLView.h */,
-				20015C0B22AE7E10009E1B1C /* OpenGLView.m */,
-				20015C1922AF45D6009E1B1C /* OpenGLMultiTextureView.h */,
-				20015C1A22AF45D6009E1B1C /* OpenGLMultiTextureView.m */,
-				20D4186D22BA0F9000F8FE5B /* OpenGLMultiFilter.h */,
-				20D4186E22BA0F9000F8FE5B /* OpenGLMultiFilter.m */,
-				2027665422B22F1400351F42 /* OpenGLFIlterView.h */,
-				2027665522B22F1400351F42 /* OpenGLFIlterView.m */,
-				20D4187222BA1CE600F8FE5B /* OpenGLESDemo.vsh */,
-				20D4187022BA1CE500F8FE5B /* Saturation.fsh */,
-				20D4187122BA1CE500F8FE5B /* Temperature.fsh */,
-				2027665722B231E600351F42 /* VertexShaderFilter.glsl */,
-				2027665B22B2320D00351F42 /* FragmentShaderFilter.glsl */,
-				20015C2222AF91C7009E1B1C /* OpenGLCubeView.h */,
-				20015C2322AF91C7009E1B1C /* OpenGLCubeView.m */,
-				20015C2522AF9F53009E1B1C /* VertexShaderCube.glsl */,
-				20015C2722AF9F64009E1B1C /* FragmentShaderCube.glsl */,
-				20015C1C22AF56A2009E1B1C /* VertexShaderMultiTexture.glsl */,
-				20015C1E22AF56B7009E1B1C /* FragmentShaderMultiTexture.glsl */,
-				20015C1022AE7E93009E1B1C /* ksMatrix.c */,
-				20015C0D22AE7E93009E1B1C /* ksMatrix.h */,
-				20015C0E22AE7E93009E1B1C /* ksVector.c */,
-				20015C0F22AE7E93009E1B1C /* ksVector.h */,
-				20015C1722AE867E009E1B1C /* timg.jpeg */,
-				20015C2022AF5E76009E1B1C /* text.jpg */,
-				20015C1322AE7EB5009E1B1C /* VertexShader.glsl */,
-				20015C1522AE7EC6009E1B1C /* FragmentShader.glsl */,
-				20015BDE22AE7DDD009E1B1C /* Main.storyboard */,
-				20015BE122AE7DDE009E1B1C /* Assets.xcassets */,
-				20015BE322AE7DDE009E1B1C /* LaunchScreen.storyboard */,
-				20015BE622AE7DDE009E1B1C /* Info.plist */,
-				20015BE722AE7DDE009E1B1C /* main.m */,
+				205436EC22D6457400E683B4 /* Earth512x256.jpg */,
+				205436ED22D6457400E683B4 /* sphere.h */,
+				205436BA22D6454900E683B4 /* AppDelegate.h */,
+				205436BB22D6454900E683B4 /* AppDelegate.m */,
+				205436BD22D6454900E683B4 /* ViewController.h */,
+				205436BE22D6454900E683B4 /* ViewController.m */,
+				205436EF22D645C500E683B4 /* OpenGLKView.h */,
+				205436F022D645C500E683B4 /* OpenGLKView.m */,
+				205436C022D6454900E683B4 /* Main.storyboard */,
+				205436C322D6454A00E683B4 /* Assets.xcassets */,
+				205436C522D6454A00E683B4 /* LaunchScreen.storyboard */,
+				205436C822D6454A00E683B4 /* Info.plist */,
+				205436C922D6454A00E683B4 /* main.m */,
 			);
 			path = Tutorial05;
 			sourceTree = "<group>";
 		};
-		20015BF022AE7DDE009E1B1C /* Tutorial05Tests */ = {
+		205436D222D6454A00E683B4 /* Tutorial05Tests */ = {
 			isa = PBXGroup;
 			children = (
-				20015BF122AE7DDE009E1B1C /* Tutorial05Tests.m */,
-				20015BF322AE7DDE009E1B1C /* Info.plist */,
+				205436D322D6454A00E683B4 /* Tutorial05Tests.m */,
+				205436D522D6454A00E683B4 /* Info.plist */,
 			);
 			path = Tutorial05Tests;
 			sourceTree = "<group>";
 		};
-		20015BFB22AE7DDE009E1B1C /* Tutorial05UITests */ = {
+		205436DD22D6454A00E683B4 /* Tutorial05UITests */ = {
 			isa = PBXGroup;
 			children = (
-				20015BFC22AE7DDE009E1B1C /* Tutorial05UITests.m */,
-				20015BFE22AE7DDE009E1B1C /* Info.plist */,
+				205436DE22D6454A00E683B4 /* Tutorial05UITests.m */,
+				205436E022D6454A00E683B4 /* Info.plist */,
 			);
 			path = Tutorial05UITests;
 			sourceTree = "<group>";
@@ -209,13 +145,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		20015BD422AE7DDD009E1B1C /* Tutorial05 */ = {
+		205436B622D6454900E683B4 /* Tutorial05 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20015C0122AE7DDE009E1B1C /* Build configuration list for PBXNativeTarget "Tutorial05" */;
+			buildConfigurationList = 205436E322D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05" */;
 			buildPhases = (
-				20015BD122AE7DDD009E1B1C /* Sources */,
-				20015BD222AE7DDD009E1B1C /* Frameworks */,
-				20015BD322AE7DDD009E1B1C /* Resources */,
+				205436B322D6454900E683B4 /* Sources */,
+				205436B422D6454900E683B4 /* Frameworks */,
+				205436B522D6454900E683B4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -223,68 +159,68 @@
 			);
 			name = Tutorial05;
 			productName = Tutorial05;
-			productReference = 20015BD522AE7DDD009E1B1C /* Tutorial05.app */;
+			productReference = 205436B722D6454900E683B4 /* Tutorial05.app */;
 			productType = "com.apple.product-type.application";
 		};
-		20015BEC22AE7DDE009E1B1C /* Tutorial05Tests */ = {
+		205436CE22D6454A00E683B4 /* Tutorial05Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20015C0422AE7DDE009E1B1C /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */;
+			buildConfigurationList = 205436E622D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */;
 			buildPhases = (
-				20015BE922AE7DDE009E1B1C /* Sources */,
-				20015BEA22AE7DDE009E1B1C /* Frameworks */,
-				20015BEB22AE7DDE009E1B1C /* Resources */,
+				205436CB22D6454A00E683B4 /* Sources */,
+				205436CC22D6454A00E683B4 /* Frameworks */,
+				205436CD22D6454A00E683B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20015BEF22AE7DDE009E1B1C /* PBXTargetDependency */,
+				205436D122D6454A00E683B4 /* PBXTargetDependency */,
 			);
 			name = Tutorial05Tests;
 			productName = Tutorial05Tests;
-			productReference = 20015BED22AE7DDE009E1B1C /* Tutorial05Tests.xctest */;
+			productReference = 205436CF22D6454A00E683B4 /* Tutorial05Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		20015BF722AE7DDE009E1B1C /* Tutorial05UITests */ = {
+		205436D922D6454A00E683B4 /* Tutorial05UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20015C0722AE7DDE009E1B1C /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */;
+			buildConfigurationList = 205436E922D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */;
 			buildPhases = (
-				20015BF422AE7DDE009E1B1C /* Sources */,
-				20015BF522AE7DDE009E1B1C /* Frameworks */,
-				20015BF622AE7DDE009E1B1C /* Resources */,
+				205436D622D6454A00E683B4 /* Sources */,
+				205436D722D6454A00E683B4 /* Frameworks */,
+				205436D822D6454A00E683B4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				20015BFA22AE7DDE009E1B1C /* PBXTargetDependency */,
+				205436DC22D6454A00E683B4 /* PBXTargetDependency */,
 			);
 			name = Tutorial05UITests;
 			productName = Tutorial05UITests;
-			productReference = 20015BF822AE7DDE009E1B1C /* Tutorial05UITests.xctest */;
+			productReference = 205436DA22D6454A00E683B4 /* Tutorial05UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		20015BCD22AE7DDD009E1B1C /* Project object */ = {
+		205436AF22D6454900E683B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = heyonly;
 				TargetAttributes = {
-					20015BD422AE7DDD009E1B1C = {
+					205436B622D6454900E683B4 = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
-					20015BEC22AE7DDE009E1B1C = {
+					205436CE22D6454A00E683B4 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 20015BD422AE7DDD009E1B1C;
+						TestTargetID = 205436B622D6454900E683B4;
 					};
-					20015BF722AE7DDE009E1B1C = {
+					205436D922D6454A00E683B4 = {
 						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 20015BD422AE7DDD009E1B1C;
+						TestTargetID = 205436B622D6454900E683B4;
 					};
 				};
 			};
-			buildConfigurationList = 20015BD022AE7DDD009E1B1C /* Build configuration list for PBXProject "Tutorial05" */;
+			buildConfigurationList = 205436B222D6454900E683B4 /* Build configuration list for PBXProject "Tutorial05" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -292,50 +228,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 20015BCC22AE7DDD009E1B1C;
-			productRefGroup = 20015BD622AE7DDD009E1B1C /* Products */;
+			mainGroup = 205436AE22D6454900E683B4;
+			productRefGroup = 205436B822D6454900E683B4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				20015BD422AE7DDD009E1B1C /* Tutorial05 */,
-				20015BEC22AE7DDE009E1B1C /* Tutorial05Tests */,
-				20015BF722AE7DDE009E1B1C /* Tutorial05UITests */,
+				205436B622D6454900E683B4 /* Tutorial05 */,
+				205436CE22D6454A00E683B4 /* Tutorial05Tests */,
+				205436D922D6454A00E683B4 /* Tutorial05UITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		20015BD322AE7DDD009E1B1C /* Resources */ = {
+		205436B522D6454900E683B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D4187422BA1CE600F8FE5B /* Temperature.fsh in Resources */,
-				20D4187522BA1CE600F8FE5B /* OpenGLESDemo.vsh in Resources */,
-				20015BE522AE7DDE009E1B1C /* LaunchScreen.storyboard in Resources */,
-				20015BE222AE7DDE009E1B1C /* Assets.xcassets in Resources */,
-				2027665822B231E600351F42 /* VertexShaderFilter.glsl in Resources */,
-				20015C1D22AF56A2009E1B1C /* VertexShaderMultiTexture.glsl in Resources */,
-				20015C1822AE867E009E1B1C /* timg.jpeg in Resources */,
-				20015C2122AF5E76009E1B1C /* text.jpg in Resources */,
-				20015C1422AE7EB5009E1B1C /* VertexShader.glsl in Resources */,
-				20015BE022AE7DDD009E1B1C /* Main.storyboard in Resources */,
-				2027665C22B2320D00351F42 /* FragmentShaderFilter.glsl in Resources */,
-				20015C2622AF9F54009E1B1C /* VertexShaderCube.glsl in Resources */,
-				20015C1F22AF56B7009E1B1C /* FragmentShaderMultiTexture.glsl in Resources */,
-				20D4187322BA1CE600F8FE5B /* Saturation.fsh in Resources */,
-				20015C2822AF9F64009E1B1C /* FragmentShaderCube.glsl in Resources */,
-				20015C1622AE7EC6009E1B1C /* FragmentShader.glsl in Resources */,
+				205436EE22D6457400E683B4 /* Earth512x256.jpg in Resources */,
+				205436C722D6454A00E683B4 /* LaunchScreen.storyboard in Resources */,
+				205436C422D6454A00E683B4 /* Assets.xcassets in Resources */,
+				205436C222D6454900E683B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20015BEB22AE7DDE009E1B1C /* Resources */ = {
+		205436CD22D6454A00E683B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20015BF622AE7DDE009E1B1C /* Resources */ = {
+		205436D822D6454A00E683B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,67 +269,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20015BD122AE7DDD009E1B1C /* Sources */ = {
+		205436B322D6454900E683B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20D4186F22BA0F9000F8FE5B /* OpenGLMultiFilter.m in Sources */,
-				20015BDD22AE7DDD009E1B1C /* ViewController.m in Sources */,
-				20015BE822AE7DDE009E1B1C /* main.m in Sources */,
-				20015C2422AF91C7009E1B1C /* OpenGLCubeView.m in Sources */,
-				20015C1222AE7E93009E1B1C /* ksMatrix.c in Sources */,
-				20015BDA22AE7DDD009E1B1C /* AppDelegate.m in Sources */,
-				20015C1122AE7E93009E1B1C /* ksVector.c in Sources */,
-				20015C0C22AE7E10009E1B1C /* OpenGLView.m in Sources */,
-				2027665622B22F1400351F42 /* OpenGLFIlterView.m in Sources */,
-				20015C1B22AF45D6009E1B1C /* OpenGLMultiTextureView.m in Sources */,
+				205436BF22D6454900E683B4 /* ViewController.m in Sources */,
+				205436CA22D6454A00E683B4 /* main.m in Sources */,
+				205436BC22D6454900E683B4 /* AppDelegate.m in Sources */,
+				205436F122D645C500E683B4 /* OpenGLKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20015BE922AE7DDE009E1B1C /* Sources */ = {
+		205436CB22D6454A00E683B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20015BF222AE7DDE009E1B1C /* Tutorial05Tests.m in Sources */,
+				205436D422D6454A00E683B4 /* Tutorial05Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20015BF422AE7DDE009E1B1C /* Sources */ = {
+		205436D622D6454A00E683B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20015BFD22AE7DDE009E1B1C /* Tutorial05UITests.m in Sources */,
+				205436DF22D6454A00E683B4 /* Tutorial05UITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		20015BEF22AE7DDE009E1B1C /* PBXTargetDependency */ = {
+		205436D122D6454A00E683B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20015BD422AE7DDD009E1B1C /* Tutorial05 */;
-			targetProxy = 20015BEE22AE7DDE009E1B1C /* PBXContainerItemProxy */;
+			target = 205436B622D6454900E683B4 /* Tutorial05 */;
+			targetProxy = 205436D022D6454A00E683B4 /* PBXContainerItemProxy */;
 		};
-		20015BFA22AE7DDE009E1B1C /* PBXTargetDependency */ = {
+		205436DC22D6454A00E683B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 20015BD422AE7DDD009E1B1C /* Tutorial05 */;
-			targetProxy = 20015BF922AE7DDE009E1B1C /* PBXContainerItemProxy */;
+			target = 205436B622D6454900E683B4 /* Tutorial05 */;
+			targetProxy = 205436DB22D6454A00E683B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		20015BDE22AE7DDD009E1B1C /* Main.storyboard */ = {
+		205436C022D6454900E683B4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20015BDF22AE7DDD009E1B1C /* Base */,
+				205436C122D6454900E683B4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		20015BE322AE7DDE009E1B1C /* LaunchScreen.storyboard */ = {
+		205436C522D6454A00E683B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				20015BE422AE7DDE009E1B1C /* Base */,
+				205436C622D6454A00E683B4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -413,7 +331,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		20015BFF22AE7DDE009E1B1C /* Debug */ = {
+		205436E122D6454A00E683B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -472,7 +390,7 @@
 			};
 			name = Debug;
 		};
-		20015C0022AE7DDE009E1B1C /* Release */ = {
+		205436E222D6454A00E683B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,7 +443,7 @@
 			};
 			name = Release;
 		};
-		20015C0222AE7DDE009E1B1C /* Debug */ = {
+		205436E422D6454A00E683B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -543,7 +461,7 @@
 			};
 			name = Debug;
 		};
-		20015C0322AE7DDE009E1B1C /* Release */ = {
+		205436E522D6454A00E683B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -561,7 +479,7 @@
 			};
 			name = Release;
 		};
-		20015C0522AE7DDE009E1B1C /* Debug */ = {
+		205436E722D6454A00E683B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -580,7 +498,7 @@
 			};
 			name = Debug;
 		};
-		20015C0622AE7DDE009E1B1C /* Release */ = {
+		205436E822D6454A00E683B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -599,7 +517,7 @@
 			};
 			name = Release;
 		};
-		20015C0822AE7DDE009E1B1C /* Debug */ = {
+		205436EA22D6454A00E683B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -617,7 +535,7 @@
 			};
 			name = Debug;
 		};
-		20015C0922AE7DDE009E1B1C /* Release */ = {
+		205436EB22D6454A00E683B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -638,43 +556,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20015BD022AE7DDD009E1B1C /* Build configuration list for PBXProject "Tutorial05" */ = {
+		205436B222D6454900E683B4 /* Build configuration list for PBXProject "Tutorial05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20015BFF22AE7DDE009E1B1C /* Debug */,
-				20015C0022AE7DDE009E1B1C /* Release */,
+				205436E122D6454A00E683B4 /* Debug */,
+				205436E222D6454A00E683B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20015C0122AE7DDE009E1B1C /* Build configuration list for PBXNativeTarget "Tutorial05" */ = {
+		205436E322D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20015C0222AE7DDE009E1B1C /* Debug */,
-				20015C0322AE7DDE009E1B1C /* Release */,
+				205436E422D6454A00E683B4 /* Debug */,
+				205436E522D6454A00E683B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20015C0422AE7DDE009E1B1C /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */ = {
+		205436E622D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20015C0522AE7DDE009E1B1C /* Debug */,
-				20015C0622AE7DDE009E1B1C /* Release */,
+				205436E722D6454A00E683B4 /* Debug */,
+				205436E822D6454A00E683B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		20015C0722AE7DDE009E1B1C /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */ = {
+		205436E922D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				20015C0822AE7DDE009E1B1C /* Debug */,
-				20015C0922AE7DDE009E1B1C /* Release */,
+				205436EA22D6454A00E683B4 /* Debug */,
+				205436EB22D6454A00E683B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 20015BCD22AE7DDD009E1B1C /* Project object */;
+	rootObject = 205436AF22D6454900E683B4 /* Project object */;
 }

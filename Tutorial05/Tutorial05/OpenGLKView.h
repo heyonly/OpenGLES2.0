@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenGLKView : GLKView
 
+- (void)render;
+
 @end
 
 NS_ASSUME_NONNULL_END

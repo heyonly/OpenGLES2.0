@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "OpenGLKView.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet OpenGLKView *openGLKView;
 
 @end
 
@@ -16,8 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+//    self.openGLKView = (OpenGLKView *)self.view;
 }
 
+- (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {
+
+    [self.openGLKView render];
+}
 
 @end

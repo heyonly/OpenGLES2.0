@@ -16,7 +16,7 @@
 		205436D422D6454A00E683B4 /* Tutorial05Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436D322D6454A00E683B4 /* Tutorial05Tests.m */; };
 		205436DF22D6454A00E683B4 /* Tutorial05UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436DE22D6454A00E683B4 /* Tutorial05UITests.m */; };
 		205436EE22D6457400E683B4 /* Earth512x256.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 205436EC22D6457400E683B4 /* Earth512x256.jpg */; };
-		205436F122D645C500E683B4 /* OpenGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436F022D645C500E683B4 /* OpenGLKView.m */; };
+		205436F222D8D4A600E683B4 /* OpenGLKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 205436F022D645C500E683B4 /* OpenGLKView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -276,7 +276,7 @@
 				205436BF22D6454900E683B4 /* ViewController.m in Sources */,
 				205436CA22D6454A00E683B4 /* main.m in Sources */,
 				205436BC22D6454900E683B4 /* AppDelegate.m in Sources */,
-				205436F122D645C500E683B4 /* OpenGLKView.m in Sources */,
+				205436F222D8D4A600E683B4 /* OpenGLKView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

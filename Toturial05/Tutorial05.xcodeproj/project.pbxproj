@@ -35,7 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		205436FC22D9856500E683B4 /* Toturial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toturial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436FC22D9856500E683B4 /* Tutorial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205436FF22D9856500E683B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2054370022D9856500E683B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2054370222D9856500E683B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		2054370B22D9856600E683B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2054370D22D9856600E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2054370E22D9856600E683B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2054371422D9856600E683B4 /* Toturial05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Toturial05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2054371422D9856600E683B4 /* Tutorial05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2054371822D9856600E683B4 /* Toturial05Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toturial05Tests.m; sourceTree = "<group>"; };
 		2054371A22D9856600E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2054371F22D9856600E683B4 /* Toturial05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Toturial05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2054371F22D9856600E683B4 /* Tutorial05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2054372322D9856600E683B4 /* Toturial05UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Toturial05UITests.m; sourceTree = "<group>"; };
 		2054372522D9856700E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,9 +81,9 @@
 		205436F322D9856500E683B4 = {
 			isa = PBXGroup;
 			children = (
-				205436FE22D9856500E683B4 /* Toturial05 */,
-				2054371722D9856600E683B4 /* Toturial05Tests */,
-				2054372222D9856600E683B4 /* Toturial05UITests */,
+				205436FE22D9856500E683B4 /* Tutorial05 */,
+				2054371722D9856600E683B4 /* Tutorial05Tests */,
+				2054372222D9856600E683B4 /* Tutorial05UITests */,
 				205436FD22D9856500E683B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,14 +91,14 @@
 		205436FD22D9856500E683B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				205436FC22D9856500E683B4 /* Toturial05.app */,
-				2054371422D9856600E683B4 /* Toturial05Tests.xctest */,
-				2054371F22D9856600E683B4 /* Toturial05UITests.xctest */,
+				205436FC22D9856500E683B4 /* Tutorial05.app */,
+				2054371422D9856600E683B4 /* Tutorial05Tests.xctest */,
+				2054371F22D9856600E683B4 /* Tutorial05UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		205436FE22D9856500E683B4 /* Toturial05 */ = {
+		205436FE22D9856500E683B4 /* Tutorial05 */ = {
 			isa = PBXGroup;
 			children = (
 				205436FF22D9856500E683B4 /* AppDelegate.h */,
@@ -111,33 +111,33 @@
 				2054370D22D9856600E683B4 /* Info.plist */,
 				2054370E22D9856600E683B4 /* main.m */,
 			);
-			path = Toturial05;
+			path = Tutorial05;
 			sourceTree = "<group>";
 		};
-		2054371722D9856600E683B4 /* Toturial05Tests */ = {
+		2054371722D9856600E683B4 /* Tutorial05Tests */ = {
 			isa = PBXGroup;
 			children = (
 				2054371822D9856600E683B4 /* Toturial05Tests.m */,
 				2054371A22D9856600E683B4 /* Info.plist */,
 			);
-			path = Toturial05Tests;
+			path = Tutorial05Tests;
 			sourceTree = "<group>";
 		};
-		2054372222D9856600E683B4 /* Toturial05UITests */ = {
+		2054372222D9856600E683B4 /* Tutorial05UITests */ = {
 			isa = PBXGroup;
 			children = (
 				2054372322D9856600E683B4 /* Toturial05UITests.m */,
 				2054372522D9856700E683B4 /* Info.plist */,
 			);
-			path = Toturial05UITests;
+			path = Tutorial05UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		205436FB22D9856500E683B4 /* Toturial05 */ = {
+		205436FB22D9856500E683B4 /* Tutorial05 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2054372822D9856700E683B4 /* Build configuration list for PBXNativeTarget "Toturial05" */;
+			buildConfigurationList = 2054372822D9856700E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05" */;
 			buildPhases = (
 				205436F822D9856500E683B4 /* Sources */,
 				205436F922D9856500E683B4 /* Frameworks */,
@@ -147,14 +147,14 @@
 			);
 			dependencies = (
 			);
-			name = Toturial05;
+			name = Tutorial05;
 			productName = Toturial05;
-			productReference = 205436FC22D9856500E683B4 /* Toturial05.app */;
+			productReference = 205436FC22D9856500E683B4 /* Tutorial05.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2054371322D9856600E683B4 /* Toturial05Tests */ = {
+		2054371322D9856600E683B4 /* Tutorial05Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2054372B22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Toturial05Tests" */;
+			buildConfigurationList = 2054372B22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */;
 			buildPhases = (
 				2054371022D9856600E683B4 /* Sources */,
 				2054371122D9856600E683B4 /* Frameworks */,
@@ -165,14 +165,14 @@
 			dependencies = (
 				2054371622D9856600E683B4 /* PBXTargetDependency */,
 			);
-			name = Toturial05Tests;
+			name = Tutorial05Tests;
 			productName = Toturial05Tests;
-			productReference = 2054371422D9856600E683B4 /* Toturial05Tests.xctest */;
+			productReference = 2054371422D9856600E683B4 /* Tutorial05Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2054371E22D9856600E683B4 /* Toturial05UITests */ = {
+		2054371E22D9856600E683B4 /* Tutorial05UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2054372E22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Toturial05UITests" */;
+			buildConfigurationList = 2054372E22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */;
 			buildPhases = (
 				2054371B22D9856600E683B4 /* Sources */,
 				2054371C22D9856600E683B4 /* Frameworks */,
@@ -183,9 +183,9 @@
 			dependencies = (
 				2054372122D9856600E683B4 /* PBXTargetDependency */,
 			);
-			name = Toturial05UITests;
+			name = Tutorial05UITests;
 			productName = Toturial05UITests;
-			productReference = 2054371F22D9856600E683B4 /* Toturial05UITests.xctest */;
+			productReference = 2054371F22D9856600E683B4 /* Tutorial05UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 205436F722D9856500E683B4 /* Build configuration list for PBXProject "Toturial05" */;
+			buildConfigurationList = 205436F722D9856500E683B4 /* Build configuration list for PBXProject "Tutorial05" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,9 +223,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				205436FB22D9856500E683B4 /* Toturial05 */,
-				2054371322D9856600E683B4 /* Toturial05Tests */,
-				2054371E22D9856600E683B4 /* Toturial05UITests */,
+				205436FB22D9856500E683B4 /* Tutorial05 */,
+				2054371322D9856600E683B4 /* Tutorial05Tests */,
+				2054371E22D9856600E683B4 /* Tutorial05UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,12 +289,12 @@
 /* Begin PBXTargetDependency section */
 		2054371622D9856600E683B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 205436FB22D9856500E683B4 /* Toturial05 */;
+			target = 205436FB22D9856500E683B4 /* Tutorial05 */;
 			targetProxy = 2054371522D9856600E683B4 /* PBXContainerItemProxy */;
 		};
 		2054372122D9856600E683B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 205436FB22D9856500E683B4 /* Toturial05 */;
+			target = 205436FB22D9856500E683B4 /* Tutorial05 */;
 			targetProxy = 2054372022D9856600E683B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,13 +437,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56MY3ZN5V7;
-				INFOPLIST_FILE = Toturial05/Info.plist;
+				INFOPLIST_FILE = Tutorial05/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial05;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -455,13 +455,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56MY3ZN5V7;
-				INFOPLIST_FILE = Toturial05/Info.plist;
+				INFOPLIST_FILE = Tutorial05/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial05;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -482,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial05Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toturial05.app/Toturial05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial05.app/Tutorial05";
 			};
 			name = Debug;
 		};
@@ -501,7 +501,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Toturial05Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Toturial05.app/Toturial05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial05.app/Tutorial05";
 			};
 			name = Release;
 		};
@@ -544,7 +544,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		205436F722D9856500E683B4 /* Build configuration list for PBXProject "Toturial05" */ = {
+		205436F722D9856500E683B4 /* Build configuration list for PBXProject "Tutorial05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2054372622D9856700E683B4 /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2054372822D9856700E683B4 /* Build configuration list for PBXNativeTarget "Toturial05" */ = {
+		2054372822D9856700E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2054372922D9856700E683B4 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2054372B22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Toturial05Tests" */ = {
+		2054372B22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2054372C22D9856700E683B4 /* Debug */,
@@ -571,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2054372E22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Toturial05UITests" */ = {
+		2054372E22D9856700E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2054372F22D9856700E683B4 /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  OpenGLKView.m
-//  Tutorial05
+//  Tutorial06
 //
 //  Created by heyonly on 2019/7/11.
 //  Copyright © 2019 heyonly. All rights reserved.

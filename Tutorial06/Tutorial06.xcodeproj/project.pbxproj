@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		205436B722D6454900E683B4 /* Tutorial05.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial05.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436B722D6454900E683B4 /* Tutorial06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		205436BA22D6454900E683B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		205436BB22D6454900E683B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		205436BD22D6454900E683B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -47,10 +47,10 @@
 		205436C622D6454A00E683B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205436C822D6454A00E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		205436C922D6454A00E683B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		205436CF22D6454A00E683B4 /* Tutorial05Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436CF22D6454A00E683B4 /* Tutorial06Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial06Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		205436D322D6454A00E683B4 /* Tutorial05Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial05Tests.m; sourceTree = "<group>"; };
 		205436D522D6454A00E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		205436DA22D6454A00E683B4 /* Tutorial05UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial05UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		205436DA22D6454A00E683B4 /* Tutorial06UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial06UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		205436DE22D6454A00E683B4 /* Tutorial05UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial05UITests.m; sourceTree = "<group>"; };
 		205436E022D6454A00E683B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		205436EC22D6457400E683B4 /* Earth512x256.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth512x256.jpg; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		205436AE22D6454900E683B4 = {
 			isa = PBXGroup;
 			children = (
-				205436B922D6454900E683B4 /* Tutorial05 */,
-				205436D222D6454A00E683B4 /* Tutorial05Tests */,
-				205436DD22D6454A00E683B4 /* Tutorial05UITests */,
+				205436B922D6454900E683B4 /* Tutorial06 */,
+				205436D222D6454A00E683B4 /* Tutorial06Tests */,
+				205436DD22D6454A00E683B4 /* Tutorial06UITests */,
 				205436B822D6454900E683B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		205436B822D6454900E683B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				205436B722D6454900E683B4 /* Tutorial05.app */,
-				205436CF22D6454A00E683B4 /* Tutorial05Tests.xctest */,
-				205436DA22D6454A00E683B4 /* Tutorial05UITests.xctest */,
+				205436B722D6454900E683B4 /* Tutorial06.app */,
+				205436CF22D6454A00E683B4 /* Tutorial06Tests.xctest */,
+				205436DA22D6454A00E683B4 /* Tutorial06UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		205436B922D6454900E683B4 /* Tutorial05 */ = {
+		205436B922D6454900E683B4 /* Tutorial06 */ = {
 			isa = PBXGroup;
 			children = (
 				205436EC22D6457400E683B4 /* Earth512x256.jpg */,
@@ -121,33 +121,33 @@
 				205436C822D6454A00E683B4 /* Info.plist */,
 				205436C922D6454A00E683B4 /* main.m */,
 			);
-			path = Tutorial05;
+			path = Tutorial06;
 			sourceTree = "<group>";
 		};
-		205436D222D6454A00E683B4 /* Tutorial05Tests */ = {
+		205436D222D6454A00E683B4 /* Tutorial06Tests */ = {
 			isa = PBXGroup;
 			children = (
 				205436D322D6454A00E683B4 /* Tutorial05Tests.m */,
 				205436D522D6454A00E683B4 /* Info.plist */,
 			);
-			path = Tutorial05Tests;
+			path = Tutorial06Tests;
 			sourceTree = "<group>";
 		};
-		205436DD22D6454A00E683B4 /* Tutorial05UITests */ = {
+		205436DD22D6454A00E683B4 /* Tutorial06UITests */ = {
 			isa = PBXGroup;
 			children = (
 				205436DE22D6454A00E683B4 /* Tutorial05UITests.m */,
 				205436E022D6454A00E683B4 /* Info.plist */,
 			);
-			path = Tutorial05UITests;
+			path = Tutorial06UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		205436B622D6454900E683B4 /* Tutorial05 */ = {
+		205436B622D6454900E683B4 /* Tutorial06 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 205436E322D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05" */;
+			buildConfigurationList = 205436E322D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial06" */;
 			buildPhases = (
 				205436B322D6454900E683B4 /* Sources */,
 				205436B422D6454900E683B4 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = Tutorial05;
+			name = Tutorial06;
 			productName = Tutorial05;
-			productReference = 205436B722D6454900E683B4 /* Tutorial05.app */;
+			productReference = 205436B722D6454900E683B4 /* Tutorial06.app */;
 			productType = "com.apple.product-type.application";
 		};
-		205436CE22D6454A00E683B4 /* Tutorial05Tests */ = {
+		205436CE22D6454A00E683B4 /* Tutorial06Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 205436E622D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */;
+			buildConfigurationList = 205436E622D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial06Tests" */;
 			buildPhases = (
 				205436CB22D6454A00E683B4 /* Sources */,
 				205436CC22D6454A00E683B4 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				205436D122D6454A00E683B4 /* PBXTargetDependency */,
 			);
-			name = Tutorial05Tests;
+			name = Tutorial06Tests;
 			productName = Tutorial05Tests;
-			productReference = 205436CF22D6454A00E683B4 /* Tutorial05Tests.xctest */;
+			productReference = 205436CF22D6454A00E683B4 /* Tutorial06Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		205436D922D6454A00E683B4 /* Tutorial05UITests */ = {
+		205436D922D6454A00E683B4 /* Tutorial06UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 205436E922D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */;
+			buildConfigurationList = 205436E922D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial06UITests" */;
 			buildPhases = (
 				205436D622D6454A00E683B4 /* Sources */,
 				205436D722D6454A00E683B4 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				205436DC22D6454A00E683B4 /* PBXTargetDependency */,
 			);
-			name = Tutorial05UITests;
+			name = Tutorial06UITests;
 			productName = Tutorial05UITests;
-			productReference = 205436DA22D6454A00E683B4 /* Tutorial05UITests.xctest */;
+			productReference = 205436DA22D6454A00E683B4 /* Tutorial06UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 205436B222D6454900E683B4 /* Build configuration list for PBXProject "Tutorial05" */;
+			buildConfigurationList = 205436B222D6454900E683B4 /* Build configuration list for PBXProject "Tutorial06" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -233,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				205436B622D6454900E683B4 /* Tutorial05 */,
-				205436CE22D6454A00E683B4 /* Tutorial05Tests */,
-				205436D922D6454A00E683B4 /* Tutorial05UITests */,
+				205436B622D6454900E683B4 /* Tutorial06 */,
+				205436CE22D6454A00E683B4 /* Tutorial06Tests */,
+				205436D922D6454A00E683B4 /* Tutorial06UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,12 +301,12 @@
 /* Begin PBXTargetDependency section */
 		205436D122D6454A00E683B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 205436B622D6454900E683B4 /* Tutorial05 */;
+			target = 205436B622D6454900E683B4 /* Tutorial06 */;
 			targetProxy = 205436D022D6454A00E683B4 /* PBXContainerItemProxy */;
 		};
 		205436DC22D6454A00E683B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 205436B622D6454900E683B4 /* Tutorial05 */;
+			target = 205436B622D6454900E683B4 /* Tutorial06 */;
 			targetProxy = 205436DB22D6454A00E683B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -455,7 +455,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial06;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -473,7 +473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial05;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial06;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -494,7 +494,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial05Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial05.app/Tutorial05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial06.app/Tutorial06";
 			};
 			name = Debug;
 		};
@@ -513,7 +513,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial05Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial05.app/Tutorial05";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tutorial06.app/Tutorial06";
 			};
 			name = Release;
 		};
@@ -556,7 +556,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		205436B222D6454900E683B4 /* Build configuration list for PBXProject "Tutorial05" */ = {
+		205436B222D6454900E683B4 /* Build configuration list for PBXProject "Tutorial06" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				205436E122D6454A00E683B4 /* Debug */,
@@ -565,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		205436E322D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05" */ = {
+		205436E322D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial06" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				205436E422D6454A00E683B4 /* Debug */,
@@ -574,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		205436E622D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05Tests" */ = {
+		205436E622D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial06Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				205436E722D6454A00E683B4 /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		205436E922D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial05UITests" */ = {
+		205436E922D6454A00E683B4 /* Build configuration list for PBXNativeTarget "Tutorial06UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				205436EA22D6454A00E683B4 /* Debug */,

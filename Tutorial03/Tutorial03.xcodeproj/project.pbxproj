@@ -475,13 +475,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CC = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CXX = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang++";
 				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				ENABLE_BITCODE = NO;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = Tutorial03/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					"/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/lib/CodeChecker.dylib",
+					"-Xclang",
+					"-add-plugin",
+					"-XClang",
+					CodeChecker,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -493,13 +508,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CC = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang";
 				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CXX = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang++";
 				DEVELOPMENT_TEAM = 56MY3ZN5V7;
+				ENABLE_BITCODE = NO;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = Tutorial03/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				OTHER_CFLAGS = (
+					"-Xclang",
+					"-load",
+					"-Xclang",
+					"/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/lib/CodeChecker.dylib",
+					"-Xclang",
+					"-add-plugin",
+					"-XClang",
+					CodeChecker,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial03;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20A0EBCF22E6E9CF00ECE6DC /* SceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0EBCE22E6E9CF00ECE6DC /* SceneMesh.m */; };
+		20A0EBD222E72D4200ECE6DC /* SceneCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0EBD122E72D4200ECE6DC /* SceneCarModel.m */; };
+		20A0EBD522E72E6600ECE6DC /* SceneRinkModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0EBD422E72E6600ECE6DC /* SceneRinkModel.m */; };
+		20A0EBD822E7309300ECE6DC /* SceneCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A0EBD722E7309300ECE6DC /* SceneCar.m */; };
 		20C7E65622DF6E5200A96B0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E65522DF6E5200A96B0C /* AppDelegate.m */; };
 		20C7E65922DF6E5200A96B0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E65822DF6E5200A96B0C /* ViewController.m */; };
 		20C7E65C22DF6E5200A96B0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C7E65A22DF6E5200A96B0C /* Main.storyboard */; };
@@ -15,6 +19,7 @@
 		20C7E66422DF6E5300A96B0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E66322DF6E5300A96B0C /* main.m */; };
 		20C7E66E22DF6E5300A96B0C /* Tutorial08Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E66D22DF6E5300A96B0C /* Tutorial08Tests.m */; };
 		20C7E67922DF6E5300A96B0C /* Tutorial08UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E67822DF6E5300A96B0C /* Tutorial08UITests.m */; };
+		20C7E68A22DF742300A96B0C /* SceneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C7E68922DF742300A96B0C /* SceneModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20A0EBCD22E6E9CF00ECE6DC /* SceneMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneMesh.h; sourceTree = "<group>"; };
+		20A0EBCE22E6E9CF00ECE6DC /* SceneMesh.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneMesh.m; sourceTree = "<group>"; };
+		20A0EBD022E72D4200ECE6DC /* SceneCarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneCarModel.h; sourceTree = "<group>"; };
+		20A0EBD122E72D4200ECE6DC /* SceneCarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneCarModel.m; sourceTree = "<group>"; };
+		20A0EBD322E72E6600ECE6DC /* SceneRinkModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneRinkModel.h; sourceTree = "<group>"; };
+		20A0EBD422E72E6600ECE6DC /* SceneRinkModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneRinkModel.m; sourceTree = "<group>"; };
+		20A0EBD622E7309300ECE6DC /* SceneCar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneCar.h; sourceTree = "<group>"; };
+		20A0EBD722E7309300ECE6DC /* SceneCar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneCar.m; sourceTree = "<group>"; };
 		20C7E65122DF6E5200A96B0C /* Tutorial08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7E65422DF6E5200A96B0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20C7E65522DF6E5200A96B0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,10 @@
 		20C7E67422DF6E5300A96B0C /* Tutorial08UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tutorial08UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C7E67822DF6E5300A96B0C /* Tutorial08UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tutorial08UITests.m; sourceTree = "<group>"; };
 		20C7E67A22DF6E5300A96B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C7E68622DF726100A96B0C /* bumperRink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bumperRink.h; sourceTree = "<group>"; };
+		20C7E68722DF726100A96B0C /* bumperCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bumperCar.h; sourceTree = "<group>"; };
+		20C7E68822DF742300A96B0C /* SceneModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneModel.h; sourceTree = "<group>"; };
+		20C7E68922DF742300A96B0C /* SceneModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,18 @@
 				20C7E65522DF6E5200A96B0C /* AppDelegate.m */,
 				20C7E65722DF6E5200A96B0C /* ViewController.h */,
 				20C7E65822DF6E5200A96B0C /* ViewController.m */,
+				20C7E68722DF726100A96B0C /* bumperCar.h */,
+				20C7E68622DF726100A96B0C /* bumperRink.h */,
+				20C7E68822DF742300A96B0C /* SceneModel.h */,
+				20C7E68922DF742300A96B0C /* SceneModel.m */,
+				20A0EBCD22E6E9CF00ECE6DC /* SceneMesh.h */,
+				20A0EBCE22E6E9CF00ECE6DC /* SceneMesh.m */,
+				20A0EBD022E72D4200ECE6DC /* SceneCarModel.h */,
+				20A0EBD122E72D4200ECE6DC /* SceneCarModel.m */,
+				20A0EBD322E72E6600ECE6DC /* SceneRinkModel.h */,
+				20A0EBD422E72E6600ECE6DC /* SceneRinkModel.m */,
+				20A0EBD622E7309300ECE6DC /* SceneCar.h */,
+				20A0EBD722E7309300ECE6DC /* SceneCar.m */,
 				20C7E65A22DF6E5200A96B0C /* Main.storyboard */,
 				20C7E65D22DF6E5300A96B0C /* Assets.xcassets */,
 				20C7E65F22DF6E5300A96B0C /* LaunchScreen.storyboard */,
@@ -263,8 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				20C7E65922DF6E5200A96B0C /* ViewController.m in Sources */,
+				20A0EBD822E7309300ECE6DC /* SceneCar.m in Sources */,
 				20C7E66422DF6E5300A96B0C /* main.m in Sources */,
+				20C7E68A22DF742300A96B0C /* SceneModel.m in Sources */,
 				20C7E65622DF6E5200A96B0C /* AppDelegate.m in Sources */,
+				20A0EBD522E72E6600ECE6DC /* SceneRinkModel.m in Sources */,
+				20A0EBCF22E6E9CF00ECE6DC /* SceneMesh.m in Sources */,
+				20A0EBD222E72D4200ECE6DC /* SceneCarModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

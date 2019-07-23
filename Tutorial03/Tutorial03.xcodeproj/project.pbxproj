@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		208B9E4D22D42A9F005487DE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B9E4C22D42A9F005487DE /* AppDelegate.m */; };
-		208B9E5022D42A9F005487DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 208B9E4F22D42A9F005487DE /* ViewController.m */; };
+		208B9E5022D42A9F005487DE /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 208B9E4F22D42A9F005487DE /* ViewController.mm */; };
 		208B9E5322D42A9F005487DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208B9E5122D42A9F005487DE /* Main.storyboard */; };
 		208B9E5522D42AA0005487DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 208B9E5422D42AA0005487DE /* Assets.xcassets */; };
 		208B9E5822D42AA0005487DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 208B9E5622D42AA0005487DE /* LaunchScreen.storyboard */; };
@@ -46,7 +46,7 @@
 		208B9E4B22D42A9F005487DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		208B9E4C22D42A9F005487DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		208B9E4E22D42A9F005487DE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		208B9E4F22D42A9F005487DE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		208B9E4F22D42A9F005487DE /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		208B9E5222D42A9F005487DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		208B9E5422D42AA0005487DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		208B9E5722D42AA0005487DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 				208B9E4B22D42A9F005487DE /* AppDelegate.h */,
 				208B9E4C22D42A9F005487DE /* AppDelegate.m */,
 				208B9E4E22D42A9F005487DE /* ViewController.h */,
-				208B9E4F22D42A9F005487DE /* ViewController.m */,
+				208B9E4F22D42A9F005487DE /* ViewController.mm */,
 				208B9E7D22D42AB4005487DE /* OpenGLView.h */,
 				208B9E7E22D42AB4005487DE /* OpenGLView.m */,
 				208B9E8822D4330C005487DE /* mixture.jpg */,
@@ -301,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				208B9E8322D42BCC005487DE /* OpenGLUtils.m in Sources */,
-				208B9E5022D42A9F005487DE /* ViewController.m in Sources */,
+				208B9E5022D42A9F005487DE /* ViewController.mm in Sources */,
 				208B9E5B22D42AA0005487DE /* main.m in Sources */,
 				208B9E4D22D42A9F005487DE /* AppDelegate.m in Sources */,
 				208B9E7F22D42AB4005487DE /* OpenGLView.m in Sources */,
@@ -475,10 +475,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CC = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang";
+				CC = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMPILER_INDEX_STORE_ENABLE = NO;
-				CXX = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang++";
+				CXX = "";
 				DEVELOPMENT_TEAM = 56MY3ZN5V7;
 				ENABLE_BITCODE = NO;
 				GCC_VERSION = "";
@@ -488,16 +488,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_CFLAGS = (
-					"-Xclang",
-					"-load",
-					"-Xclang",
-					"/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/lib/CodeChecker.dylib",
-					"-Xclang",
-					"-add-plugin",
-					"-XClang",
-					CodeChecker,
-				);
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -508,10 +499,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CC = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang";
+				CC = "";
 				CODE_SIGN_STYLE = Automatic;
 				COMPILER_INDEX_STORE_ENABLE = NO;
-				CXX = "/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/bin/clang++";
+				CXX = "";
 				DEVELOPMENT_TEAM = 56MY3ZN5V7;
 				ENABLE_BITCODE = NO;
 				GCC_VERSION = "";
@@ -521,16 +512,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_CFLAGS = (
-					"-Xclang",
-					"-load",
-					"-Xclang",
-					"/Volumes/Passport/llvm/llvm-clang-project/llvm-project/build/Debug/lib/CodeChecker.dylib",
-					"-Xclang",
-					"-add-plugin",
-					"-XClang",
-					CodeChecker,
-				);
+				OTHER_CFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.uusafe.Tutorial03;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
